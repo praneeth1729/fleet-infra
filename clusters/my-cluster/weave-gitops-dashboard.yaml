@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/name: weave-gitops-dashboard
     app.kubernetes.io/part-of: weave-gitops
   name: ww-gitops
-  namespace: flux-system
+  namespace: elk
 spec:
   interval: 1h0m0s
   type: oci
@@ -23,7 +23,7 @@ metadata:
     metadata.weave.works/description: This is the Weave GitOps Dashboard.  It provides
       a simple way to get insights into your GitOps workloads.
   name: ww-gitops
-  namespace: flux-system
+  namespace: elk
 spec:
   chart:
     spec:
